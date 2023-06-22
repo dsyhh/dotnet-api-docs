@@ -451,6 +451,7 @@
 ## Remarks
  The <xref:System.Drawing.Graphics.Clear%2A> method clears the state of the graphics object and should not be called when the graphics object cannot be updated. For example, if the <xref:System.Drawing.Graphics.Clear%2A> method is called on a secure desktop in a terminal server session, an <xref:System.Runtime.InteropServices.ExternalException> may occur, leaving the <xref:System.Drawing.Graphics> object in an inconsistent state.
 
+ Clear is effectively just an area fill with a solid color brush of the given color. It will apply transparency as specified in the given color.
 
 
 ## Examples
