@@ -178,10 +178,6 @@
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.DynamicDependency(System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicParameterlessConstructor | System.Diagnostics.CodeAnalysis.DynamicallyAccessedMemberTypes.PublicProperties, typeof(Microsoft.Extensions.Resilience.FaultInjection.FaultPolicyWeightAssignmentsOptions))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
-        </Attribute>
-        <Attribute>
           <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessage("Trimming", "IL2026:Members annotated with 'RequiresUnreferencedCodeAttribute' require dynamic access otherwise can break functionality when trimming application code", Justification="Addressed by [DynamicDependency]")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.UnconditionalSuppressMessage("Trimming", "IL2026:Members annotated with 'RequiresUnreferencedCodeAttribute' require dynamic access otherwise can break functionality when trimming application code", Justification="Addressed by [DynamicDependency]")&gt;]</AttributeName>
         </Attribute>
@@ -219,12 +215,6 @@
         <AssemblyName>Microsoft.Extensions.Http.Resilience</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>Microsoft.Extensions.DependencyInjection.IHttpClientBuilder</ReturnType>
       </ReturnValue>

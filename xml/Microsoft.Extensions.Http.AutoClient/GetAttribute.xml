@@ -18,10 +18,6 @@
       <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Method)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Method)&gt;]</AttributeName>
     </Attribute>
-    <Attribute>
-      <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
-    </Attribute>
   </Attributes>
   <Docs>
     <summary>

@@ -54,12 +54,6 @@
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
         <Parameter Name="epoch" Type="System.DateTimeOffset" />
       </Parameters>
@@ -68,6 +62,27 @@
         <summary>
             Initializes a new instance of the <see cref="T:Microsoft.Extensions.Time.Testing.FakeTimeProvider" /> class.
             </summary>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="Advance">
+      <MemberSignature Language="C#" Value="public void Advance ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Advance() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Time.Testing.FakeTimeProvider.Advance" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Advance ()" />
+      <MemberSignature Language="F#" Value="member this.Advance : unit -&gt; unit" Usage="fakeTimeProvider.Advance " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Advance();" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
+        <AssemblyVersion>8.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Void</ReturnType>
+      </ReturnValue>
+      <Parameters />
+      <Docs>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
@@ -141,12 +156,6 @@
         <AssemblyName>Microsoft.Extensions.TimeProvider.Testing</AssemblyName>
         <AssemblyVersion>8.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute>
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>
       </ReturnValue>

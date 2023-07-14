@@ -110,10 +110,6 @@
           <AttributeName Language="C#">[System.ComponentModel.DataAnnotations.Range(2048, 32768, ErrorMessage="Maximum stack trace length should be between 2kb and 32kb")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.DataAnnotations.Range(2048, 32768, ErrorMessage="Maximum stack trace length should be between 2kb and 32kb")&gt;]</AttributeName>
         </Attribute>
-        <Attribute>
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
-        </Attribute>
       </Attributes>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

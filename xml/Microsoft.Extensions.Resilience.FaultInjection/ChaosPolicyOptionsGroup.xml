@@ -51,12 +51,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[Microsoft.Extensions.Options.ValidateObjectMembers]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.ValidateObjectMembers&gt;]</AttributeName>
-        </Attribute>
-        <Attribute>
-          <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.Experimental("TBD", UrlFormat="TBD")&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.Extensions.Options.Validation.ValidateObjectMembers]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.Validation.ValidateObjectMembers&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -84,8 +80,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[Microsoft.Extensions.Options.ValidateObjectMembers]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.ValidateObjectMembers&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.Extensions.Options.Validation.ValidateObjectMembers]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.Validation.ValidateObjectMembers&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -115,8 +111,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[Microsoft.Extensions.Options.ValidateObjectMembers]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.ValidateObjectMembers&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.Extensions.Options.Validation.ValidateObjectMembers]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.Validation.ValidateObjectMembers&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -146,8 +142,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[Microsoft.Extensions.Options.ValidateObjectMembers]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.ValidateObjectMembers&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.Extensions.Options.Validation.ValidateObjectMembers]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.Extensions.Options.Validation.ValidateObjectMembers&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

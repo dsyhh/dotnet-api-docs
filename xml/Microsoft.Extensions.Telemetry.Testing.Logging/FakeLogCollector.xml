@@ -146,11 +146,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetSnapshot">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt; GetSnapshot (bool clear = false);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt; GetSnapshot(bool clear) cil managed" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogCollector.GetSnapshot(System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetSnapshot (Optional clear As Boolean = false) As IReadOnlyList(Of FakeLogRecord)" />
-      <MemberSignature Language="F#" Value="member this.GetSnapshot : bool -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt;" Usage="fakeLogCollector.GetSnapshot clear" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IReadOnlyList&lt;Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt; GetSnapshot ();" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IReadOnlyList`1&lt;class Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt; GetSnapshot() cil managed" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogCollector.GetSnapshot" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetSnapshot () As IReadOnlyList(Of FakeLogRecord)" />
+      <MemberSignature Language="F#" Value="member this.GetSnapshot : unit -&gt; System.Collections.Generic.IReadOnlyList&lt;Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt;" Usage="fakeLogCollector.GetSnapshot " />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IReadOnlyList&lt;Microsoft::Extensions::Telemetry::Testing::Logging::FakeLogRecord ^&gt; ^ GetSnapshot();" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Telemetry.Testing</AssemblyName>
@@ -159,18 +160,10 @@
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IReadOnlyList&lt;Microsoft.Extensions.Telemetry.Testing.Logging.FakeLogRecord&gt;</ReturnType>
       </ReturnValue>
-      <Parameters>
-        <Parameter Name="clear" Type="System.Boolean" />
-      </Parameters>
+      <Parameters />
       <Docs>
-        <param name="clear">
-          <see langword="true" /> to atomically clear the set of accumulated log records; otherwise, <see langword="false" />.</param>
-        <summary>
-            Gets the records that are held by the collector.
-            </summary>
-        <returns>
-            The list of records tracked to date by the collector.
-            </returns>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

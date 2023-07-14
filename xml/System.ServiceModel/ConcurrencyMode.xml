@@ -21,6 +21,9 @@
     <AssemblyName>System.ServiceModel.Primitives</AssemblyName>
     <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
+  <TypeForwardingChain>
+    <TypeForwarding From="System.ServiceModel" FromVersion="4.0.0.0" To="System.ServiceModel.Duplex" ToVersion="4.9.0.0" FrameworkAlternate="dotnet-plat-ext-8.0" />
+  </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Enum</BaseTypeName>
   </Base>
